@@ -1,0 +1,11 @@
+path: C:/Users/Charuvi Suresh/Documents/AI-Based Maritime Situational Awareness System/data
+train: images/train
+val: images/val
+test: images/test
+names:
+  0: militaryship
+  1: passengership
+  2: cruiseship
+  3: ferry
+  4: sailboat
+  5: motorboat

@@ -1,0 +1,45 @@
+# Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Data & models (large / potentially sensitive - never commit)
+data/images/train/*
+data/images/val/*
+data/images/test/*
+data/labels/train/*
+data/labels/val/*
+data/labels/test/*
+!data/images/train/.gitkeep
+!data/images/val/.gitkeep
+!data/images/test/.gitkeep
+!data/labels/train/.gitkeep
+!data/labels/val/.gitkeep
+!data/labels/test/.gitkeep
+models/*.pt
+models/*.onnx
+models/*.engine
+/*.pt
+
+# raw uploads written by the dashboard
+data/raw_downloads/
+
+# sample/demo videos (too large for the repo)
+/RESULT.mp4
+/SHIP.mp4
+
+# Training runs (Ultralytics output)
+runs/
+
+# Ultralytics label cache
+*.cache
+
+# OS / editor
+.DS_Store
+.vscode/
+*.log

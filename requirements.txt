@@ -1,0 +1,13 @@
+# NOTE: torch/torchvision must be installed from the CUDA index for GPU support, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu124
+# A plain `pip install -r requirements.txt` will pull the CPU-only build instead.
+ultralytics
+opencv-python
+torch
+torchvision
+numpy
+requests
+python-dotenv
+streamlit
+Pillow
+remotezip
